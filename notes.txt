@@ -1,0 +1,1 @@
+All the notes regarding the API Slider::

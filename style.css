@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 30%;
+    padding: 20px;
+    border-radius: 30px;
+    transition: transform 1000ms;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.center-div{
+    display: flex;
+    width: 100vw;
+    overflow-x: scroll;
+    /* overflow-y: scroll; */
+}
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.center-div::-webkit-scrollbar{
+    /* overflow: hidden; */
+    display: none;
+}

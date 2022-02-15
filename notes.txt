@@ -1,1 +1,6 @@
 All the notes regarding the API Slider::
+
+fetch method requires two parameters:
+    1. url
+    2. options (optional (if this is not mentioned the fetch method will work only as GET))
+fetch method when gets a url it will send us the json or xml data as promise
